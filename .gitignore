@@ -22,5 +22,6 @@
 *.synctex
 *.synctex(busy)
 *.synctex.g
+*.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
