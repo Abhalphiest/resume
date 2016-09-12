@@ -85,6 +85,7 @@
   pdfsubject={},
   pdfkeywords={}
 }
+\RequirePackage{tabto}
 
 
 %-------------------------------------------------------------------------------
@@ -542,7 +543,10 @@
     \ifempty{#2#3}
       {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
       {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
-      \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+      \entrypositionstyle{#1}\tabto{4.5cm} \entrypositionstyle{#6} & \entrydatestyle{#4} \\}
+	\entrypositionstyle{#7} \tabto{4.5cm} \entrypositionstyle{#8} \\
+	 
+	
     \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}} \\
   \end{tabular*}
 }
