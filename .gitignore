@@ -1,0 +1,26 @@
+## Core latex/pdflatex auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+
+#intermediate documents
+*.dvi
+*-converted-to.*
+
+#generated if user error
+.pdf
+
+#build tool files
+*.synctex
+*.synctex(busy)
+*.synctex.g
+*.synctex.gz(busy)
+*.pdfsync
